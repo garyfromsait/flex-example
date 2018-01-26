@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<style type="text/css">
+    .wrapper {
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box {
+        flex: 1 1 100px;
+        padding: 20px;
+        background: coral;
+        margin: 20px;
+    }
+
+    @media(max-width: 600px) {
+        .flex-container {
+            flex-direction: column;
+        }
+    }
+
+</style>
+<body>
+    <div class='wrapper flex-container'>
+        <div class='box'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+        <div class='box'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+        <div class='box'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+        <div class='box'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+        <div class='box'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+        <div class='box'>lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum </div>
+
+
+    </div>
+
+</body>
+</html>
